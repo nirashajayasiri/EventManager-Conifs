@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    min-width: 0;
+    min-height: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: #f8f8f8;
+}
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+#header{
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header h1{
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+}
+.blue{
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2px;
+    margin: 5px; 
+    border: 2px solid #3582f5;
+    background: #3582f5;
+    color: #fff;
+
+
+}
+.event-details{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #e7e7e7;
+    background-color: #fff;
+}
+
+.info-wrap{
+    flex: 2;
+    text-align: center;
+    padding: 20px;
+}
+
+.info-wrap h2{
+    font-size: 26px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+.btn-wrap{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.btn{
+    padding: 10px 15px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: 10px 0 0;
+    text-decoration: none;
+}
+.btn.orange{
+    border: 2px solid #ff9900;
+    background: #f8e0bb;
+    color: #ff9900;
+
+}
+.btn.purple{
+    border: 2px solid #510868;
+    background: #d6afe2;
+    color: #510868;
+
+}
+.date-wrap{
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(19, 164, 184);
+    background: rgb(190, 232, 240);
+    color:rgb(19, 164, 184);
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.form-wrap{
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    border: 1px solid #e7e7e7;
+    padding: 20px;
+    background: #fff;
+}
+
+.form-group{
+    width: 100%;
+    display: block;
+    padding: 5px 0;
+}
+
+label{
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-control{
+    padding: 10px 15px;
+    font-size: 16px;
+    width: 100%;
+    border: 2px solid #e7e7e7;
+    background-color: #fbfbfb;
+    border-radius: 4px;
+}
+
+.form-wrap h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
